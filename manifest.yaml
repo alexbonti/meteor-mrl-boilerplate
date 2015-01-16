@@ -1,0 +1,11 @@
+applications:
+- name: meteor-mrl-boilerplate
+  host: meteor-mrl-boilerplate
+  domain: mybluemix.net
+  memory: 512M
+  buildpack: https://github.com/jordansissel/heroku-buildpack-meteor.git
+  disk: 512M
+  instances: 1
+  env:
+    MONGO_URL: mongodb://IbmCloud_jfst9kr9_cipcn6lj_414di73d:w0GrcPDrO3Ifs0mSILmN_H202DTuaVAo@ds055190.mongolab.com:55190/IbmCloud_jfst9kr9_cipcn6lj
+    ROOT_URL: http://meteor-mrl-boilerplate.mybluemix.net
