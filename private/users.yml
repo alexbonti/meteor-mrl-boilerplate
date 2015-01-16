@@ -6,6 +6,9 @@ user_test:
   email: test@test.com
   username: test
   password: testtest
+  profile:
+      name:  testAccount
+      lastname:  account
 user_admin:
   email: alex@test.com
   username: ale
